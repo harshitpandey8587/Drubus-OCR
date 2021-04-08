@@ -1,0 +1,4 @@
+Motive of Custom implementation of dictionary:
+I tried implementing tesseract default dictionary in order to enhance the accuracy of the extracted text using tesseract.but tesseract only took hints from the default dictionary and not implemented those words in the extracted text.
+Then I tried implementing custom dictionary(given by me) using tesseract and made it mandatory to use only custom dictionary and not the tesseract default one but then also the accuracy was not improved as tesseract only took the hints from the dictionary.Basically the predictions depends upon the type,quality of the source image.
+Then I imposed an external dictionary(given by me) using python logics to my extracted text,which worked very well over the predicted text.
